@@ -3,7 +3,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: rgb(190, 255, 250);  
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
@@ -36,9 +36,21 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
+.foto1 {
+    float: right;
+    margin: 20px;
+}
+.foto2 {
     float: left;
-    margin-right: 15px;
+    margin: 20px;
+}
+.foto3 {
+    float: center;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 400px;
 }
 
 .smalltext {
