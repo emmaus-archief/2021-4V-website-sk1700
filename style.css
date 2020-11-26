@@ -23,7 +23,7 @@ article {
 
 
 header {
-    color: skyblue;
+    color: rgb(56, 178, 182);
     text-align: center;
 }
 
@@ -120,7 +120,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: rgb(170, 219, 216, 0.986);
     overflow: hidden;
 }
 
@@ -130,18 +130,28 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    background-color: rgb(170, 219, 216, 0.986);
+    color:rgb(252, 250, 250);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #0d3e99;
+    background-color: #71bdc0;
+}
+
+
+nav li a:focus {
+    background-color: #16f0ae;
 }
 
 nav li a.active {
-    background-color: rgb(12, 110, 167);
+    background-color: rgb(98, 223, 212);
+    text-decoration:underline;
+    font-weight:bold;
+    font-style:italic;
+    font-size:1.1em;
 }
 
 
