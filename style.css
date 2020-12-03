@@ -36,6 +36,10 @@ footer {
 
 /* specifieke stijlen */
 
+h1 {
+    border:5px solid rgb(18, 107, 143);
+    padding:10px;
+}
 .foto1 {
     float: right;
     margin: 20px;
@@ -81,22 +85,34 @@ footer {
 .foto8 {
     float: left;
     margin: 10px;
-    margin-top:30px;
+    margin-top:40px;
+    margin-bottom:15px;
    width:200px;
 }
 .foto9 {
     float: right;
     margin: 10px;
-    margin-top:30px;
-     width:200px;
+    margin-top:45px;
+    margin-bottom:20px;
+     width:250px;
    
 }
 .foto10 {
     float: left;
     margin: 10px;
-    margin-top:30px;
+    margin-top:40px;
+    margin-bottom:20px;
      width:200px;
    
+}
+
+.linkjes{
+    font-style:italic;
+}
+.bronnen{
+    font-family:monospace;
+    font-size:20px;
+    font-weight:bold;
 }
 .inleiding{
     font-size:20px;
@@ -125,6 +141,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
+    border: 3px solid rgb(18, 107, 143);
     background-color: rgb(170, 219, 216, 0.986);
     overflow: hidden;
 }
@@ -144,6 +161,7 @@ nav li a {
 
 nav li a:hover {
     background-color: #71bdc0;
+   
 }
 
 
