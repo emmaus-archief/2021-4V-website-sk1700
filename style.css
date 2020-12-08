@@ -72,7 +72,7 @@ h1 {
 }
 .foto6 {
      float: right;
-    margin: 20px;
+    margin: 15px;
     width:400px;
 }
 .foto7 {
@@ -101,7 +101,7 @@ h1 {
     float: left;
     margin: 10px;
     margin-top:40px;
-    margin-bottom:20px;
+    margin-bottom:30px;
      width:200px;
    
 }
@@ -120,6 +120,9 @@ h1 {
     font-style:italic;
 }
 
+li {
+    color:rgb(18, 107, 143);
+}
 
 .smalltext {
     font-size: 0.7em;
