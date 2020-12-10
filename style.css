@@ -40,6 +40,63 @@ h1 {
     border:5px solid rgb(18, 107, 143);
     padding:10px;
 }
+
+h3{
+    color: rgb(255,255,255);
+    background: rgb(18, 107, 143);
+   
+}
+
+p{
+    font-family: Garamond, serif;
+   
+}
+
+li {
+    color:rgb(18, 107, 143);
+}
+
+a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: rgb(90, 157, 245);
+}
+
+.linkjes{
+    font-style:italic;
+}
+.bronnen{
+    font-family:monospace;
+    font-size:20px;
+    font-weight:bold;
+    color: rgb(18, 107, 143);
+}
+.inleiding{
+    font-family: Garamond, serif;
+    font-size:20px;
+    font-weight:bold;
+    font-style:italic;
+    color: rgb(18, 107, 143);
+}
+
+.woorden{
+    font-family: Garamond, serif;
+    font-style:italic;
+    font-weight:bold;
+    
+}
+
+.smalltext {
+    font-size: 0.7em;
+}
+
+
+
+/* foto's */
 .foto1 {
     float: right;
     margin: 20px;
@@ -78,7 +135,7 @@ h1 {
 .foto7 {
     float: right;
     margin: 5px;
-    margin-top:20px;
+    margin-top:30px;
     width:200px;
    
 }
@@ -86,57 +143,10 @@ h1 {
     float: left;
     margin: 10px;
     margin-top:40px;
-    margin-bottom:15px;
+    margin-bottom:25px;
    width:200px;
 }
-.foto9 {
-    float: right;
-    margin: 10px;
-    margin-top:45px;
-    margin-bottom:20px;
-     width:250px;
-   
-}
-.foto10 {
-    float: left;
-    margin: 10px;
-    margin-top:40px;
-    margin-bottom:30px;
-     width:200px;
-   
-}
 
-.linkjes{
-    font-style:italic;
-}
-.bronnen{
-    font-family:monospace;
-    font-size:20px;
-    font-weight:bold;
-}
-.inleiding{
-    font-size:20px;
-    font-weight:bold;
-    font-style:italic;
-}
-
-li {
-    color:rgb(18, 107, 143);
-}
-
-.smalltext {
-    font-size: 0.7em;
-}
-
-a {
-    color: skyblue;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-    background-color: rgb(90, 157, 245);
-}
 
 
 /* navigatiebalk */
