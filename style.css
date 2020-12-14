@@ -115,11 +115,14 @@ a:hover {
     margin-right: 20px;
     margin-bottom: 20px;
     width: 500px;
+    animation: fadeIn 5s;
 }
 .foto4 {
     float: left;
     margin: 20px;
     width:  250px;
+    position:relative;
+    animation: slide 5s;
 }
 .foto5 {
     float: center;
@@ -147,7 +150,18 @@ a:hover {
    width:200px;
 }
 
+/* animatie */
 
+@keyframes fadeIn{
+    0% {opacity:0;}
+    100% {opacity:1;}
+
+}
+@keyframes slide{
+    0% {left:-300px;}
+    100% {right:0px;}
+    
+}
 
 /* navigatiebalk */
 nav ul {
