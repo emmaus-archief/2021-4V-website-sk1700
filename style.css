@@ -3,8 +3,8 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: rgb(190, 255, 250);  
-    
+     background-color: rgb(190, 255, 250); 
+     background-image: url("afbeeldingen/achtergrondfoto.jpg");
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
 }
@@ -38,6 +38,7 @@ footer {
 
 h1 {
     border:5px dashed rgb(18, 107, 143);
+    color: rgb(120, 186, 240);
     padding:10px;
 }
 
