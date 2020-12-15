@@ -122,24 +122,29 @@ a:hover {
     margin: 20px;
     width:  250px;
     position:relative;
-    animation: slide 5s;
+    animation: slide 6s;
 }
 .foto5 {
     float: center;
     margin: 20px;
     margin-left:100px;
     width:  250px;
+     position:relative;
+    animation: slide 3s;
 }
 .foto6 {
      float: right;
     margin: 15px;
     width:400px;
+    animation: fadeIn 20s;
 }
 .foto7 {
     float: right;
     margin: 5px;
     margin-top:30px;
     width:200px;
+    position:relative;
+    animation: slide 4s;
    
 }
 .foto8 {
@@ -148,7 +153,10 @@ a:hover {
     margin-top:40px;
     margin-bottom:25px;
    width:200px;
+   position:relative;
+    animation: slide 8s;
 }
+
 
 /* animatie */
 
@@ -158,10 +166,11 @@ a:hover {
 
 }
 @keyframes slide{
-    0% {left:-300px;}
-    100% {right:0px;}
+    0% {left:-900px;}
+    100% {left:0px;}
     
 }
+
 
 /* navigatiebalk */
 nav ul {
