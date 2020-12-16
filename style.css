@@ -38,7 +38,7 @@ footer {
 
 h1 {
     border:5px dashed rgb(18, 107, 143);
-    color: rgb(120, 186, 240);
+    color: rgba(154, 225, 253, 0.835);
     padding:10px;
 }
 
@@ -58,13 +58,13 @@ li {
 }
 
 a {
-    color: skyblue;
+    color: rgb(117, 218, 243);
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-    background-color: rgb(90, 157, 245);
+    background-color: rgb(136, 184, 247);
 }
 
 .linkjes{
@@ -105,8 +105,9 @@ a:hover {
 }
 .foto2 {
     float: left;
-    margin: 20px;
-    margin-bottom: 30px;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 45px;
     width:  250px;
 }
 .foto3 {
